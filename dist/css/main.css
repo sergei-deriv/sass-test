@@ -22,8 +22,13 @@ body {
   color: rgb(232, 99, 121);
 }
 .main .main__par {
-  margin-left: 20px;
+  margin: 20px;
 }
 .main .main__par:hover {
   color: white;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */
