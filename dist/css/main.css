@@ -13,4 +13,7 @@ body {
 }
 .main .main__par {
   margin-left: 20px;
+}
+.main .main__par:hover {
+  color: white;
 }/*# sourceMappingURL=main.css.map */

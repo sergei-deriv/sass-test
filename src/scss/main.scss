@@ -27,5 +27,9 @@ body {
 
     #{&}__par {
         margin-left: 20px;
+
+        &:hover {
+            color: white;
+        }
     }
 }
