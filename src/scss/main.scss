@@ -18,4 +18,14 @@ body {
 
 .main {
     color: map-get($colors, testAny);
+    width: 80%;
+    margin: 0 auto;
+
+    span {
+        color: $text-color;
+    }
+
+    #{&}__par {
+        margin-left: 20px;
+    }
 }
