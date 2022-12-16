@@ -41,11 +41,19 @@ body {
         color: $text-color;
     }
 
-    #{&}__par {
+    #{&}__par1 {
         margin: 20px;
 
         &:hover {
             color: white;
+        }
+    }
+
+    #{&}__par2 {
+        @extend .main__par1;
+        // cursor: pointer;
+        &:hover {
+            color: $text-color2;
         }
     }
 

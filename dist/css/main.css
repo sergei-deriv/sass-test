@@ -21,11 +21,14 @@ body {
 .main span {
   color: rgb(232, 99, 121);
 }
-.main .main__par {
+.main .main__par1, .main .main__par2 {
   margin: 20px;
 }
-.main .main__par:hover {
+.main .main__par1:hover, .main .main__par2:hover {
   color: white;
+}
+.main .main__par2:hover {
+  color: rgb(68, 244, 14);
 }
 @media (max-width: 800px) {
   .main {
