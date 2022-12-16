@@ -1,11 +1,13 @@
 @import './resets';
 @import './variables';
 
-@fun
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
 
 body {
     background: $primary-color;
-    font-weight: map-get($map: $font-weights, $key: bold);
+    font-weight: weight(bold);
 }
 
 .main {
