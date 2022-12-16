@@ -1,4 +1,8 @@
+body {
+  background: rgb(22, 22, 52);
+  font-weight: 700;
+}
+
 .main {
-  color: red;
-  padding: 10px;
+  color: rgb(208, 210, 119);
 }/*# sourceMappingURL=main.css.map */

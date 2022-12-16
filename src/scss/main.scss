@@ -1,6 +1,21 @@
+$primary-color: rgb(22, 22, 52);
+$text-color: rgb(232, 99, 121);
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
+$colors: (
+    'testRed': red,
+    'testBlue': blue,
+    'testAny': rgb(208, 210, 119)
+);
 
+body {
+    background: $primary-color;
+    font-weight: map-get($map: $font-weights, $key: bold);
+}
 
 .main {
-    color: red;
-    padding: 10px;
+    color: map-get($colors, testAny);
 }
